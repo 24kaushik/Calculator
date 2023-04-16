@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.calculator{
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.button {
+    font-size: 30px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    
+}
+.row{
+    display: flex;
+}
+.button-zero {
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 55px;
+    width: 118px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    margin: auto;
+    width: 212px;
+    font-size: 20px;
+    padding: 15px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
